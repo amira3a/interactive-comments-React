@@ -1,0 +1,90 @@
+.comDiv {
+    width: 80%;
+  background-color: hsl(0, 0%, 100%);
+  padding: 3.2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  margin-bottom: 2%;
+margin-left: 13.5%;
+}
+
+.comleftDiv {
+  width: 40px;
+  height: 100px;
+  background-color: hsl(228, 33%, 97%);
+  color: hsl(238, 40%, 52%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  /* margin-right: 3%; */
+  border-radius: 10px;
+}
+.plusBtn{
+    cursor: pointer;
+    padding-right: 0;
+}
+.minusBtn{
+    cursor: pointer;
+    padding-right: 0;
+}
+.comrightDiv {
+  width: 90%;
+}
+.comtopDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.avatar {
+  width: 32px;
+  height: 32px;
+  padding-right: 15px;
+}
+h5 {
+  margin: 0;
+  color: hsl(212, 24%, 26%);
+}
+label {
+  color: hsl(211, 10%, 45%);
+  padding-left: 15px;
+}
+.you{
+  background-color: hsl(238, 40%, 52%);
+  color: white;
+  width:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  margin-left: 10px;
+}
+.comidDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 375px){
+  .comDiv {
+    width: 78%;
+  /* height: 22%; */
+  margin-bottom: 4%;
+  padding: 4% 4%;
+  justify-content: center;
+  align-items: start;
+  
+}
+.comleftDiv {
+  margin: auto 15px;
+}
+.comrightDiv {
+  width: 70%;
+}
+.textDiv {
+  margin-bottom: 40px;
+}
+}
